@@ -1,0 +1,97 @@
+/* Style général */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6fb;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* En-tête */
+header {
+    background: #2d3e50;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+/* Navigation */
+nav {
+    background: #1a2533;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #f9d342;
+}
+
+/* Contenu principal */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(44,62,80,0.07);
+}
+
+/* Titres */
+h2, h3 {
+    color: #2d3e50;
+    margin-top: 1.5em;
+}
+
+/* Boutons */
+button, .btn {
+    background: #f9d342;
+    color: #2d3e50;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+button:hover, .btn:hover {
+    background: #ffe066;
+}
+
+/* Pied de page */
+footer {
+    background: #2d3e50;
+    color: #fff;
+    text-align: center;
+    padding: 18px 0;
+    margin-top: 40px;
+    font-size: 0.95rem;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    main {
+        padding: 16px;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
